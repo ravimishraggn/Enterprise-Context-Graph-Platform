@@ -1,0 +1,50 @@
+# ── .NET ──────────────────────────────────────────────────────────────────────
+bin/
+obj/
+*.user
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+.packages/
+*.nupkg
+*.snupkg
+**/Properties/launchSettings.json
+logs/
+*.log
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.venv/
+env/
+.env
+*.env
+.python-version
+dist/
+build/
+*.egg-info/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+.docker/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+*.pem
+*.key
+*.p12
+*.pfx
+appsettings.Production.json
+appsettings.Local.json
+secrets.json
